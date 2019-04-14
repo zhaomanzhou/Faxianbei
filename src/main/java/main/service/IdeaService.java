@@ -26,6 +26,8 @@ public class IdeaService {
 
     @Autowired
     private IdeaMapper mapper;
+
+
     public List<IdeaVo> selectAll(Long id)
     {
         List<Idea> ideas = mapper.selectAll(id);

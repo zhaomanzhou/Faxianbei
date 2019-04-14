@@ -38,7 +38,7 @@ lll: 233
 logging:
   level.main: debug
   #当前目录下记录日志的文件
-  file: springbootlog
+  #file: springbootlog
 
 pagehelper:
   helperDialect: mysql
